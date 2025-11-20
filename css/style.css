@@ -1291,7 +1291,7 @@ html{overflow-x: hidden;}
    }
 
    .campuslife-lnl-detailtxt {
-     font-size: 14px;
+     font-size: 16px;
      text-align: center;
    }
 
@@ -3308,8 +3308,9 @@ html{overflow-x: hidden;}
   }
 
   .program-list li {
-    font-size: 14px;
+    font-size: 16px;
   }
+  .nims-first-choice{margin-top: 35px !important;}
   
 }
 
@@ -3332,9 +3333,15 @@ html{overflow-x: hidden;}
   }
 
   .infra-img {
-    height: auto;
+    height: 390px;
+    object-fit: fill;
   }
-
+section.business-infra-section {
+    margin-top: -43px;
+}
+.section-faculty {
+    margin-top: -63px;
+}
   .infra-arrow {
     display: none !important;
   }
