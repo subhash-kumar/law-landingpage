@@ -19,7 +19,11 @@
 }
 
 
-html{overflow-x: hidden;} 
+html { overflow-x: hidden; overflow-y: auto; }
+body { overflow-x: hidden; overflow-y: auto; }
+html, body {
+  overflow: visible !important;
+}
  body {
    font-family: "Times New Roman", sans-serif;
    margin: 0;
