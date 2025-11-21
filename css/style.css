@@ -3463,7 +3463,7 @@ section.business-infra-section {
   .placement-card img {
     height: 270px;
   }
-  
+  .thumb img{object-position: 100% 13%;}
 }
     /* faculty section css end */
 
